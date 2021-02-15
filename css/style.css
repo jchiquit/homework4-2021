@@ -28,10 +28,14 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
 
   /*Req 1*/
+  font-family: Andika, sans-serif;
+  background: url("../images/pigeon-background.JPEG") #dddddd;
+  background-repeat: no-repeat;
+
 }
 
 h1{
@@ -55,7 +59,7 @@ a{
 
 /*Req 6a*/
 td{
-  
+
 }
 
 /*Req 6b*/
@@ -90,4 +94,3 @@ footer{
   text-align:center;
   color: #FFFFFF;
 }
-
