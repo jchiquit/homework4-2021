@@ -25,6 +25,7 @@ tr{
 /*END STARTER CODE*/
 
 body{
+
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
@@ -33,7 +34,8 @@ body{
 
   /*Req 1*/
   font-family: Andika, sans-serif;
-  background: url("../images/pigeon-background.JPEG") #dddddd;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color:#dddddd;
   background-repeat: no-repeat;
 
 }
@@ -43,43 +45,64 @@ h1{
   font-size: 2em;
 
   /*Req 2*/
+  line-height: 2;
+  text-align:center;
 }
 
 p{
   /*Req 3*/
+  padding-top: 15px;
 }
 
 a{
   /*Req 4*/
+  font-size: 16px;
+  color: #C12258;
+  text-decoration-style: wavy;
 }
 
-/*Req 5*/
-/*Add selector and rule here*/
+
+*:focus{
+  /*Req 5*/
+  border: 3px dashed #417243;
+}
 
 
 /*Req 6a*/
 td{
-
+  text-align: center;
+  border-top: 2px solid black;
 }
 
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
+  min-width: 125px;
+  background-color: #7e0820;
+  text-align:center;
+  text-transform: capitalize;
 
 }
 /*Req 6c*/
 .rowhead{
-
+  border-right: 2px solid black;
 }
 
 /*Req 6d*/
+tr:nth-child(2n+2){
+  background: #dddddd
+}
 /*Req 6e*/
 /*Req 6f*/
+tr:hover{
+  background:#fab9cf;
 
-
+}
 /*Req 7*/
 table{
     border: 2px solid #000000;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 thead tr:first-child th:first-child{}
@@ -93,4 +116,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
