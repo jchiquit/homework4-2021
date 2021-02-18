@@ -57,7 +57,7 @@ p{
 a{
   /*Req 4*/
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 
@@ -71,21 +71,30 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
+  vertical-align: middle;
   border-top: 2px solid black;
+  padding: 10px;
 }
 
 /*Req 6b*/
 .colhead{
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
   color: #FFFFFF;
   min-width: 125px;
+  padding:10px;
   background-color: #7e0820;
-  text-align:center;
-  text-transform: capitalize;
+
 
 }
 /*Req 6c*/
 .rowhead{
   border-right: 2px solid black;
+  border-top: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+
 }
 
 /*Req 6d*/
@@ -118,6 +127,8 @@ footer{
   color: #FFFFFF;
   min-height: 75px;
   bottom: 0;
-  width: 100%;
+  min-width: 100%;
   position: fixed;
+  margin-left: -1.2em;
+
 }
